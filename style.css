@@ -127,7 +127,7 @@ a::after {
   color: white;
 }
 
-.commentContainer {
+#disqus_thread {
   position: absolute;
   bottom: 0;
   width: 100%;
