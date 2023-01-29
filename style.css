@@ -123,3 +123,7 @@ a::after {
 .errorcode {
   color: white;
 }
+
+@disqus_thread {
+  position: bottom;
+}
