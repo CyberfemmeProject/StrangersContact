@@ -1,9 +1,9 @@
 @import 'https://fonts.googleapis.com/css?family=Inconsolata';
-
+@import 'https://fonts.googleapis.com/css?family=Inconsolata';
 
 
 html {
-  min-height: 100%;
+  min-height:100%;
 }
 
 body {
@@ -17,9 +17,22 @@ body {
   font-size: 1.5rem;
   color: rgba(128, 255, 128, 0.8);
   text-shadow:
-      0 0 1ex rgba(51, 255, 51, 1),
+      0 0 1ex rgb(38, 46, 160),
       0 0 2px rgba(255, 255, 255, 0.8);
 }
+.container {
+  height: auto;
+}
+#commentContainer{
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem;  
+  width: auto;
+  margin: 20px;
+  border:10px;
+  border-color: blue;
+}
+
 
 
 .noise {
@@ -83,7 +96,7 @@ body {
   width: 1000px;
   max-width: 100%;
   padding: 4rem;
-  text-transform: uppercase;
+  
 }
 
 .output {
@@ -127,10 +140,3 @@ a::after {
   color: white;
 }
 
-#disqus_thread {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;  
- 
-}
