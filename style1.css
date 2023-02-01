@@ -1,0 +1,109 @@
+@import 'https://fonts.googleapis.com/css?family=Inconsolata';
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.container {  
+  
+  font-family: Glass, Glass_TTY_VT220, monospace;
+  color: #5dff4b;
+  	text-shadow: none;
+  background-color: #111111;
+  display: grid;
+  
+  grid-template-columns: 0.3fr 3.1fr 0.3fr;
+  grid-template-rows: 0.5fr 0.3fr 2.9fr 0.1fr 9.3em 0.3fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  justify-items: stretch;
+}
+
+.Menu { border: 3px double white;
+  border-bottom: none;
+  background-color: #111111
+  ;
+  grid-area: 2 / 2 / 3 / 3;
+  position: center;
+  
+  padding-left: 10px;
+  color: white;
+}
+#feedback {
+  cursor: pointer;
+  font: white;
+}
+
+#feedback:hover {
+  color: white;
+  background: blue;
+  padding: 5px;
+  text-decoration: none;
+}
+a {
+  color: rgb(233, 212, 199);
+  text-decoration: none;
+  
+}
+
+
+
+
+.window { 
+  font-size: 1.5rem;
+  background-color:#111111
+  ;
+  color: #5dff4b;
+  border: 3px double white;
+  grid-area: 2 / 2 / 4 / 3; 
+}
+
+.TextArea { 
+   
+  padding: 20px;
+  overflow-y: scroll;
+  color: #5dff4b;
+ text-shadow: none;
+  line-height: 140%;
+  border: none;
+  grid-area: 3 / 2 / 4 / 3; }
+
+
+.CommentArea { 
+  overflow-y: scroll;
+  background: #111111
+  ;
+  border: 3px double white;
+  grid-area: 5 / 2 / 6 / 3; 
+  max-height: 300px; 
+  
+  padding: 20px;
+}
+
+#disqus_thread {
+  
+  font-family: 'VT323', monospace;
+  color: white;
+  background: none;
+  border: none;
+  padding: 20px;
+  grid-area: 5 / 2 / 6 / 3;
+  height: 100%;
+  font-size: 0.8em; /* adjust font size as needed */
+}
+
+#disqus_thread img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+html, body , .container {
+  height: 100%;
+  margin: 0;
+}
+
+/* For presentation only, no need to copy the code below */
+
+
+
+
