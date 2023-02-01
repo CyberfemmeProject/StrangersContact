@@ -1,6 +1,21 @@
 @import 'https://fonts.googleapis.com/css?family=Inconsolata';
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
+
+@font-face {
+	/* Font source: http://sensi.org/~svo/glasstty/ */
+	font-family: Glass;
+	src: url("Glass_TTY_VT220.eot");
+	src: url("Glass_TTY_VT220.eot?#iefix") format("embedded-opentype"),
+		 url("Glass_TTY_VT220.woff2") format("woff2"),
+		 url("Glass_TTY_VT220.woff") format("woff"),
+		 url("Glass_TTY_VT220.svg#Glass_TTY_VT220") format("svg"),
+		 url("Glass_TTY_VT220.ttf") format("truetype"),
+		 url("Glass_TTY_VT220.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
 .container {  
   
   font-family: Glass, Glass_TTY_VT220, monospace;
@@ -36,12 +51,15 @@
   background: blue;
   padding: 5px;
   text-decoration: none;
+  cursor: pointer;
 }
 a {
-  color: rgb(233, 212, 199);
+  color: white;
   text-decoration: none;
   
+  
 }
+
 
 
 
@@ -68,6 +86,7 @@ a {
 
 .CommentArea { 
   overflow-y: scroll;
+  color: white;
   background: #111111
   ;
   border: 3px double white;
