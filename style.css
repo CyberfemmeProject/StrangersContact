@@ -16,6 +16,9 @@
 	font-style: normal;
 }
 
+body {
+  font-family: Glass, Glass_TTY_VT220, monospace;}
+
 .container {  
   
   font-family: Glass, Glass_TTY_VT220, monospace;
@@ -30,6 +33,7 @@
   grid-auto-flow: row;
   justify-items: stretch;
 }
+
 
 .Menu { border: 3px double white;
   border-bottom: none;
@@ -93,7 +97,8 @@ a {
   grid-area: 5 / 2 / 6 / 3; 
   max-height: 300px; 
   
-  padding: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
 }
 
 input[type=text] {
@@ -151,15 +156,47 @@ textarea {
 }
 
 
-
-
 html, body , .container {
   height: 100%;
   margin: 0;
 }
 
+/* Page 2 */
+
+.container2 {  display: grid;
+  grid-template-columns: 0.1fr 4.2fr 0.1fr;
+  grid-template-rows: 0.1fr 0.4fr 0.1fr 4.6fr 0.2fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  background-color: #111111;
+  color: white; 
+ 
+}
+
+
+.Menu2 { grid-area: 2 / 2 / 3 / 3;
+margin:none;
+padding:none; }
+
+.Text2 { grid-area: 4 / 2 / 5 / 3;
+padding-left:10%;
+padding-right:10%;
+padding-top:30px;
+padding-bottom:20px;
+font-size: 1.5rem; 
+text-shadow: none;
+  line-height: 140%;
+  overflow-y: scroll;
+  border: double 3px white;}
+
+.Menu { grid-area: 2 / 2 / 3 / 3; }
+
+
+.container2 {
+  border: 1px;
+  height: 100%;
+  margin: 0;
+}
+
 /* For presentation only, no need to copy the code below */
-
-
-
-
